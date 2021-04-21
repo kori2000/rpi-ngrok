@@ -13,4 +13,6 @@ if [[ "$(docker images -q rpi-ngrok:latest 2> /dev/null)" == "" ]]; then
 fi 
 
 echo " ---> Starting ngrok"
-docker run --rm -it rpi-ngrok:latest ngrok http 192.168.1.110:3000
+docker run --rm -it rpi-ngrok:latest ngrok http 192.168.1.110:3000 -d
+
+docker ps -a
