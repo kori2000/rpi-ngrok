@@ -2,4 +2,6 @@
 # full documentation for all configuration parameters shown in these examples.
 #
 # https://ngrok.com/docs#config-examples
+log_level: info
+console_ui: true
 web_addr: 0.0.0.0:4040
