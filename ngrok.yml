@@ -2,4 +2,4 @@
 # full documentation for all configuration parameters shown in these examples.
 #
 # https://ngrok.com/docs#config-examples
-web_addr: localhost:4040
+web_addr: 0.0.0.0:4040
