@@ -1,1 +1,5 @@
-web_addr: 192.168.1.110:4040
+# Example configuration files are presented below. The subsequent section contains 
+# full documentation for all configuration parameters shown in these examples.
+#
+# https://ngrok.com/docs#config-examples
+web_addr: localhost:4040
