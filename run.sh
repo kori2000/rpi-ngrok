@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash
 
 clear
 echo "Starting ngrok..."
