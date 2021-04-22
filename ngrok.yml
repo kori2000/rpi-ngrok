@@ -4,4 +4,5 @@
 # https://ngrok.com/docs#config-examples
 log_level: info
 console_ui: true
+og: stdout
 web_addr: 0.0.0.0:4040
