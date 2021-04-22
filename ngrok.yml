@@ -2,19 +2,7 @@
 # full documentation for all configuration parameters shown in these examples.
 #
 # https://ngrok.com/docs#config-examples
-
-authtoken: 4nq9771bPxe8ctg7LKr_2ClH7Y15Zqe4bWLWF9p # FAKE ID
 log_level: info
 log_format: term
 log: stdout
 web_addr: 0.0.0.0:4040
-tunnels:
-  myapp-http:
-    addr: 80
-    proto: http
-    hostname: example.com
-    bind_tls: false
-  mypp-https:
-    addr: 443
-    proto: tls
-    hostname: example.com

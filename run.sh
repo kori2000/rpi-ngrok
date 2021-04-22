@@ -6,7 +6,7 @@ echo " --- RPI NGROK --- "
 echo ""
 
 if [ -z "$1" ]; then
-    echo " ---> HOST: Set Target Application host. Ex.: http://localhost:3000"
+    echo " ---> HOST: Set Target Application host. Ex.: ./run.sh http://localhost:3000"
     exit 1
 else
     HOST=$1
@@ -28,5 +28,6 @@ sleep 2
 # Display *.ngrok Host
 docker logs rpi-ng
 
-echo " "
-echo " # Stop Tunneling with: docker stop rpi-ng"
+echo ""
+echo " ---> STOP: docker stop rpi-ng"
+echo ""
