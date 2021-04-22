@@ -3,8 +3,7 @@
 #
 # https://ngrok.com/docs#config-examples
 log_level: debug
-log_format: json
-log: /var/log/ngrok.log
+log_format: logfmt
+log: stdout
 console_ui: true
-og: stdout
 web_addr: 0.0.0.0:4040
