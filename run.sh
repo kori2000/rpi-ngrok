@@ -19,8 +19,8 @@ if [[ "$(docker images -q rpi-ngrok:latest 2> /dev/null)" == "" ]]; then
     echo ""
 fi 
 
-echo " ---> Starting ngrok"
-docker run -d --name rpi-ng --rm -it rpi-ngrok:latest ngrok https $HOST
+echo " ---> Starting ngrok (wait 2 sec)..."
+docker run -d --name rpi-ng --rm -it rpi-ngrok:latest ngrok http $HOST
 
 # Wait for connection...
 sleep 2
