@@ -1,8 +1,0 @@
-# Example configuration files are presented below. The subsequent section contains 
-# full documentation for all configuration parameters shown in these examples.
-#
-# https://ngrok.com/docs#config-examples
-log_level: info
-log_format: term
-log: stdout
-web_addr: 0.0.0.0:4040
