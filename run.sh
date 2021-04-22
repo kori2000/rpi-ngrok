@@ -8,7 +8,7 @@ echo ""
 HOST=""
 
 if [ -z "$1" ]; then
-    echo " # Set Target Application host. Ex.: http://localhost:3000"
+    echo " ---> HOST: Set Target Application host. Ex.: http://localhost:3000"
     exit 1
 else
     $HOST="$1"
