@@ -5,13 +5,11 @@ echo ""
 echo " --- RPI NGROK --- "
 echo ""
 
-HOST=""
-
 if [ -z "$1" ]; then
     echo " ---> HOST: Set Target Application host. Ex.: http://localhost:3000"
     exit 1
 else
-    $HOST="$1"
+    HOST=$1
 fi
 
 # Build Docker Image of BC Gov Indy Explorer
