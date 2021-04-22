@@ -2,7 +2,9 @@
 # full documentation for all configuration parameters shown in these examples.
 #
 # https://ngrok.com/docs#config-examples
-log_level: info
+log_level: debug
+log_format: json
+log: /var/log/ngrok.log
 console_ui: true
 og: stdout
 web_addr: 0.0.0.0:4040
